@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    background-color: #4A90E2;
+    text-align: center;
+}
+
+.nav .navItem {
+    display: inline-block;
+    width: 220px;
+    padding: 24px 0;
+    font-family: Roboto-Medium;
+    font-size: 24px;
+    color: #00408B;
+    text-align: center;
+    border-bottom: transparent solid 5px;
+}
+
+.nav .act {
+    color: #ffffff;
+    border-bottom: #00408B solid 5px;
+}

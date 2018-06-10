@@ -4,6 +4,8 @@
     font-size: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: Roboto-Medium , "微軟正黑體";
+    /*outline: #f00 solid 1px;*/
 }
 
 body {
@@ -14,20 +16,150 @@ body {
     width: 100%;
     background-color: #4A90E2;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .nav .navItem {
     display: inline-block;
     width: 220px;
     padding: 24px 0;
-    font-family: Roboto-Medium;
     font-size: 24px;
     color: #00408B;
     text-align: center;
     border-bottom: transparent solid 5px;
+    cursor: pointer;
+}
+
+.nav .navItem:hover {
+    background-color: #5AA0F2;
 }
 
 .nav .act {
     color: #ffffff;
-    border-bottom: #00408B solid 5px;
+    border-bottom: #00408B solid 5px; 
 }
+
+
+
+
+.content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+        align-items: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+    flex-direction:column;
+}
+
+
+
+
+
+
+.enter {
+    width: 620px;
+    height: 65px;
+    background-color: #fff;
+    text-align: left;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+        align-items: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #C8C8C8;
+    border-radius: 5px;
+}
+.plus {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+    margin: 15px;
+}
+.plus01 , .plus02 {
+    width: 20px;
+    display: inline-block;
+    border-top: 2px solid #c8c8c8;
+}
+.plus02 {
+    transform:rotate(90deg);
+    position: absolute;
+    left: 0;
+}
+
+.input {
+    display: inline-block;
+    width: 510px;
+    margin: 15px;
+    font-size: 24px;
+    vertical-align: middle;
+    border: none;
+}
+.input::placeholder {
+    color: #c8c8c8;
+    opacity: 1;
+}
+
+
+
+.itembox{
+    margin: 15px;
+}
+
+.item {
+    width: 620px;
+    height: 102px;
+    background-color: #f2f2f2;
+    text-align: left;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+        justify-content: center;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.check {
+    vertical-align: top;
+}
+
+.checkBox {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #fff;
+    margin: 8px;
+}
+.something {
+    vertical-align: top;
+    width: 420px;
+}
+.somethingText {
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin: 8px;
+}
+
+.faso i {
+    font-size: 24px;
+    color: #757575;
+    margin: 8px;
+}
+
+.control {
+    vertical-align: top;
+}
+.control i {
+    font-size: 24px;
+    color: #757575;
+    margin: 8px;
+}
+
+
+

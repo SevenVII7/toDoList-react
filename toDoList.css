@@ -123,6 +123,12 @@ body {
     padding: 8px;
     border-radius: 5px;
 }
+.great {
+    background-color: #FFF2DC;
+}
+.great .fa-star {
+    color: #F5A623;
+}
 
 .check {
     vertical-align: top;
